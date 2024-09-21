@@ -1,0 +1,242 @@
+---
+layout: default
+permalink: /contact
+title:
+description:
+keywords:
+---
+
+<div class="middle">
+  <div class="container">
+    <div class="pre-text">
+      <h1 class="text-center">Pour plus d’informations, contactez-nous !</h1>
+    </div>
+  </div>
+</div>
+
+<section class="one contact">
+  <div class="container">
+    <h2 class="text-center">Nos experts de notre agence Courtier Paris se tiennent à votre disposition pour répondre à
+      toutes vos demandes.</h2>
+    <br><br>
+    <div class="row">
+      <div class="col-sm-8  form-contact">
+        <div class="div01"></div>
+        <form class="form contact_content-form" id="contactForm" method="post"
+          action="{{ site.data.company.url.notify }}">
+          <input type="hidden" name="lang" value="fr" />
+          <input type="hidden" name="redirectUrl" value="{{site.data.company.url.redirect}}" />
+          <input type="hidden" name="type" value="contact" />
+          <input type="hidden" name="website" value="{{ site.data.company.website }}" />
+          <input type="hidden" name="lang" value="{{ site.data.company.lang }}" />
+          <input type="hidden" name="firstName" value="" />
+          <input type="hidden" name="key" value="{{ site.data.company.recaptcha.server }}" />
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="form-group has-feedback ">
+                <input type="text" class="form-control " id="firstname" name="firstname" value="" placeholder="Prenom">
+              </div>
+            </div>
+            <div class="col-sm-12">
+              <div class="form-group has-feedback ">
+                <input type="text" class="form-control " id="lastname" name="lastname" value="" placeholder="Nom">
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="form-group has-feedback ">
+                <input type="text" class="form-control " id="email" name="email" value="" placeholder="Email">
+              </div>
+            </div>
+            <div class="col-sm-12">
+              <div class="form-group has-feedback ">
+                <input type="text" class="form-control " id="phone" name="phone" value="" placeholder="Telephone">
+              </div>
+            </div>
+          </div>
+          <div class="form-group has-feedback h-6rem">
+            <select name="subject" class="form-control h-6rem" id="subject">
+              <option>Demande d'information générale</option>
+              <option>Demande d'information tarifaire</option>
+              <option>Proposition commerciale</option>
+              <option>Recrutement</option>
+              <option>Autre</option>
+            </select>
+          </div>
+
+          <div class="form-group has-feedback ">
+            <textarea rows="6" name="message" class="form-control h-100" id="message" placeholder="Message"></textarea>
+          </div>
+          <div class="row justify-content-center">
+            <div class="checkbox d-flex mb-5 justify-content-center">
+              <input name="condition" type="checkbox"
+                style="height:1.5rem; width:1.5rem; vertical-align: middle; margin-right: 1rem;" />
+              <span class="contact_content-form--label" style="font-size: 1.4rem; color: #000;">
+                En utilisant ce formulaire, vous acceptez le stockage et la gestion
+                de vos données par ce site * <a href="#" data-toggle="modal" class="link" data-target="#modal-rgpd"><i
+                    class="fa fa-info-circle"></i></a></span>
+              <i class="fa fa-info-square" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div id="contact-form-response"></div>
+          <div class="form-group d-flex justify-content-center">
+            <div class="g-recaptcha" data-sitekey="{{ site.data.company.recaptcha.client }}">
+            </div>
+            <br />
+            <input style="display: none" type="submit" value="Submit" class="wpcf7-wpcf7-submit" />
+          </div>
+          <div class="buttondevis ">
+            <button type="submit" name="contact" class="button" style="width: 100%">Envoyer</button>
+          </div>
+        </form>
+      </div>
+      <div class="col-sm-4">
+        <div class="">
+          <h4>Agence Paris</h4>
+          <address>
+            <strong>Crédit expert</strong><br>
+            <!-- 129 boulevard Voltaire<br>
+						75011 Paris<br> -->
+            <span class="fa fa-phone fa-fw"></span> <a href="tel:'0185539138'">01 85 53 91 38</a><br> <!--(!empty($conf_phone1))?"<span class='fa fa-phone fa-fw'></span> <a href='".$conf_phone_paris."'>".$conf_phone_paris."</a><br>":""?>
+						(!empty($conf_phone2))?"<span class='fa fa-phone fa-fw'></span> <a href='".$call_phone2."'>".$conf_phone2."</a><br>":""?>
+						(!empty($conf_fax))?"<span class='fa fa-file-text-o fa-fw'></span> ".$conf_fax."<br>":""?>-->
+            <span class="fa fa-envelope fa-fw"></span><a href="mailto:info@creditexpert.fr">info@creditexpert.fr</a><br>
+          </address>
+        </div>
+        <div class="">
+          <h4>Agence Levallois Perret</h4>
+          <address>
+            <strong>Crédit expert</strong><br>
+            41 rue Carnot<br>
+            92300 Levallois Perret<br>
+            <span class="fa fa-phone fa-fw"></span><a href="tel:'01" 71="" 03="" 80="" 84'="">01 71 03 80 84</a><br>
+            <span class="fa fa-envelope fa-fw"></span><a href="mailto:info@creditexpert.fr">info@creditexpert.fr</a><br>
+          </address>
+        </div>
+        <div class="">
+
+          <h4>Crédit expert Sartrouville</h4>
+          <address>
+
+            36B, Av. Jean Jaurès<br>
+            78500 Sartrouville<br>
+            <span class="fa fa-phone fa-fw"></span><a href="tel:01 85 53 91 38"> 01 85 53 91 38 <br>
+
+              <span class="fa fa-envelope fa-fw"></span></a><a
+              href="mailto:info@creditexpert.fr">info@creditexpert.fr</a><br>
+          </address>
+
+        </div>
+
+        <!-- <div class="">
+
+					<h4>Crédit expert Melun</h4>
+					<address>
+
+						16 Avenue Armand de la Rochett<br>
+						77000 Melun<br>
+
+						<span class='fa fa-envelope fa-fw'></span><a href="mailto:info@creditexpert.fr">info@creditexpert.fr</a><br>
+					</address>
+
+				</div> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+<!-- <section class="five">
+  <div class="container">
+    <h1><span>Notre équipe est à votre disposition</span><br><br>Contactez-nous !</h1>
+    <div class="pad20"></div>
+    <div class="row">
+      <div class="col-md-4 my-2">
+        <div class="bg-gray pad02">
+          <h3>Nos coordonnées</h3>
+          <div class="pad10"></div>
+          <div class="infos">
+            <p>
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              153 route Corbeil 91700 Sainte Geneviève des Bois
+            </p>
+            <p><i class="fa fa-mobile" aria-hidden="true"></i> <a href="tel:0160151915">01 60 15 19 15</a></p>
+            <p><i class="fa fa-envelope-o" aria-hidden="true"></i> <a
+                href="mailto:agence.sgdb@lebaronfuneraire.fr">agence.sgdb@lebaronfuneraire.fr</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8 my-2">
+        <h3>Formulaire de contact</h3>
+        <form class="form contact_content-form" id="contactForm" method="post" action="{{ site.data.company.url.notify }}">
+          <input type="hidden" name="lang" value="fr" />
+          <input type="hidden" name="redirectUrl" value="{{site.data.company.url.redirect}}" />
+          <input type="hidden" name="type" value="contact" />
+          <input type="hidden" name="website" value="{{ site.data.company.website }}" />
+          <input type="hidden" name="lang" value="{{ site.data.company.lang }}" />
+          <input type="hidden" name="firstName" value="" />
+          <input type="hidden" name="key" value="{{ site.data.company.recaptcha.server }}" />
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="form-group has-feedback ">
+                <label for="lastname">Nom</label>
+                <input type="text" class="form-control " id="lastname" name="lastname" value="">
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="form-group has-feedback ">
+                <label for="email">E-mail</label>
+                <input type="text" class="form-control " id="email" name="email" value="">
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="form-group has-feedback ">
+                <label for="phone">Téléphone</label>
+                <input type="text" class="form-control " id="phone" name="phone" value="">
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group has-feedback ">
+            <label for="message">Message</label>
+            <textarea rows="6" name="message" class="form-control h-100" id="message"></textarea>
+          </div>
+          <br>
+
+          <div class="row justify-content-center">
+            <div class="checkbox d-flex mb-5 justify-content-center">
+              <input name="condition" type="checkbox"
+                style="height:1.5rem; width:1.5rem; vertical-align: middle; margin-right: 1rem;" />
+              <span class="contact_content-form--label" style="font-size: 1.4rem; color: #000;">
+                En utilisant ce formulaire, vous acceptez le stockage et la gestion
+                de vos données par ce site * <a href="#" data-toggle="modal" class="link" data-target="#modal-rgpd"><i
+                    class="fa fa-info-circle"></i></a></span>
+              <i class="fa fa-info-square" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div id="contact-form-response"></div>
+          <div class="form-group d-flex justify-content-center">
+            <div class="g-recaptcha" data-sitekey="{{ site.data.company.recaptcha.client }}">
+            </div>
+            <br />
+            <input style="display: none" type="submit" value="Submit" class="wpcf7-wpcf7-submit" />
+          </div>
+          <div class="d-flex justify-content-center">
+            <button type="submit" class="button form-submit" value="Submit">Envoyer</button>
+          </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section> -->

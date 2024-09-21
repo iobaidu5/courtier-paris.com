@@ -1,0 +1,22 @@
+####################
+# CONFIG
+####################
+name:
+phone: 01 85 53 91 38
+tel:  0185539138 
+
+email: info@creditexpert.fr
+address: 36B, Av. Jean Jaurès - 78500 Sartrouville
+location: 36B, Av. Jean Jaurès - 78500 Sartrouville
+
+websiteAddr: bhinternet.fr
+website: 
+
+recaptcha:
+  client: 
+  server: 
+  
+lang: fr
+url:
+  notify: 'https://jgviaboye9.execute-api.eu-west-3.amazonaws.com/prod/notify'
+  redirect: '/message-envoye'
