@@ -46,7 +46,7 @@ body {
   min-height: 100vh;
   max-width: 100%;
   background-color: #fff !important;
-  color: #333;
+  color: #656565 !important;
   overflow-x: hidden !important;
   // background-color: #F5F7FA !important;
 }
@@ -101,7 +101,7 @@ header .top a {
 }
 
 h1, h2, h3, h4, p, a, li, button {
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'Source Sans 3', sans-serif !important;
 }
 
 img {
@@ -446,7 +446,7 @@ header .menu img {
 }
 
 
-devis-home {
+.devis-home {
   height: 25vh;
   display: flex;
   justify-content: center;
@@ -587,8 +587,8 @@ section.one {
 }
 
 section h2 {
-  font-family: 'Source Sans 3', sans-serif;
-  font-size: 2.6rem;
+  font-family: 'Source Sans 3', sans-serif !important;
+  font-size: 2.6rem !important;
   letter-spacing: .1px;
   font-weight: 400;
   color: #212529;
@@ -599,10 +599,11 @@ section h2 {
 }
 
 section p {
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'Source Sans 3', sans-serif !important;
   margin-top: 1.5rem;
   font-size: 1.6rem;
   line-height: 1.5;
+  color: #000;
 }
 
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
@@ -991,6 +992,247 @@ section.contact .form-control {
 
 .h-6rem{
   height: 6rem !important;
+}
+
+
+
+section.devis {
+  padding-top: 0px;
+}
+
+#devis {
+  padding-top: 20rem;
+}
+
+
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  min-width: 0;
+}
+
+legend {
+  font-family: 'Source Sans 3', sans-serif !important;
+  display: block !important;
+  width: 100% !important;
+  padding: 0 !important;
+  margin-bottom: 2rem !important;
+  font-size: 2.1rem !important;
+  line-height: inherit !important;
+  color: #333 !important;
+  border: 0 !important;
+  border-bottom: .1rem solid #e5e5e5 !important;
+}
+
+#formD{
+  color: #656565 !important;
+  font-size: 3rem !important;
+  margin-bottom: 2rem !important;
+}
+
+.form-control {
+  display: block !important;
+  width: 100% !important;
+  height: 4.2rem !important;
+  padding: .6rem 1.2rem !important;
+  font-size: 1.4rem !important;
+  line-height: 1.42857143 !important;
+  color: #555 !important;
+  background-color: #fff !important;
+  background-image: none !important;
+  border: .1rem solid #ccc !important;
+  border-radius: .1rem !important;
+  -webkit-box-shadow: inset 0 .1rem .1rem rgba(0, 0, 0, .075) !important;
+  box-shadow: inset 0 .1rem .1rem rgba(0, 0, 0, .075) !important;
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s !important;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s !important;
+}
+
+.has-feedback .form-control {
+  padding-right: 4.25rem !important;
+}
+
+label {
+  font-family: 'Source Sans Pro', sans-serif !important;
+    font-size: 1.6rem !important;
+    color: #656565 !important;
+    line-height: 1.75 !important;
+  display: inline-block;
+  margin-bottom: .5rem !important;
+  font-weight: 700 !important;
+}
+
+.p-y-10{
+  padding: 3rem !important;
+}
+
+
+#mentions-legales {
+  padding: 0 10rem;
+  margin-top: 20rem;
+}
+
+#mentions-legales h2 {
+  margin-top: 0;
+}
+
+#mentions-legales .panel {
+  font-size: 1.1em;
+}
+
+.panel-primary {
+  border-color: #92bce0 !important;
+}
+
+.panel {
+  margin-bottom: 2rem;
+  background-color: #fff;
+  border: .1rem solid transparent;
+  border-radius: .2rem;
+  -webkit-box-shadow: 0 .1rem .1rem rgba(0, 0, 0, .05);
+  box-shadow: 0 .1rem .1rem rgba(0, 0, 0, .05);
+}
+
+.panel-primary>.panel-heading {
+  background-color: #00B0EA !important;
+}
+
+.panel-heading {
+  padding: 1rem 1.5rem !important;
+  border-bottom: .1rem solid transparent !important;
+  border-top-right-radius: .3rem !important;
+  border-top-left-radius: .3rem !important;
+}
+
+.panel-title {
+  font-family: 'Source Sans 3', sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #fff !important;
+  font-size: 1.6rem !important;
+  color: inherit;
+}
+
+
+.panel-body {
+  background-color: #D3D2DC;
+  color: black;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.75;
+  padding: 1.5rem;
+}
+
+#mentions-legales h1 {
+  font-size: 3.6rem !important;
+  color: #656565 !important;
+}
+
+
+#mentions-legales h2 {
+  margin-top: 0;
+  color: #656565;
+}
+
+.panel-body h2{
+  color: #000 !important;
+  font-size: 3rem !important;
+}
+
+.panneauxCSStop {
+  border: .5rem solid #fcfcfc;
+  border-radius: 1.8rem;
+  box-shadow: .5rem .5rem 1rem #CCCECF;
+  color: black;
+  width: 25rem;
+  margin: auto;
+}
+
+
+.panneauxCSS {
+  font-family: arial;
+  font-weight: bold;
+  font-size: 3rem;
+  border: .9rem solid #b91425;
+  border-radius: 13px;
+  padding: 1rem 2rem 1rem 2rem;
+  background-clip: content-box;
+  background-color: #999;
+  background: linear-gradient(135deg, #fcfcfc 63%, #eaeaea 100%);
+  text-transform: uppercase;
+}
+
+
+li{
+  font-family: 'Source Sans 3', sans-serif;
+  color: #000;
+  font-size: 1.6rem;
+  line-height: 1.75;
+}
+
+
+section.two {
+  background: #fafafa;
+  border-top: .1rem solid #e2e1e1;
+  border-bottom: .1rem solid #e2e1e1;
+  padding: 8rem 3rem;
+}
+
+
+
+.charleville .first-section {
+  background-color: #00A0E5;
+  padding: 8rem 3rem;
+}
+
+.first-section.pp-h3 .container h3 {
+  color: #fff;
+}
+
+.charleville .first-section p {
+  color: #ffff;
+  text-align: left;
+}
+
+
+.charleville h2 {
+  color: #00b0ea;
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin-top: 2rem;
+}
+
+
+.predevis {
+  text-align: center !important;
+  padding: 4rem !important;
+  position: absolute !important;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 80vw !important;
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  border-radius: 3rem !important;
+  box-shadow:  0px .4rem 1.8rem .1rem rgba(204, 204, 204, 0.25) !important;
+}
+
+
+header .predevis input, header .predevis textarea {
+  border: none;
+  border-radius: 3rem !important;
+  box-shadow: 0px .4rem 1.8rem .1rem rgba(204, 204, 204, 0.25) !important;
+}
+
+.submit_btn {
+  /* float: right; */
+  margin-top: 1.5rem;
+  display: block;
+}
+
+
+.charleville .contact-courtier, .charleville .contact-courtier2 {
+  border: .2rem solid #00B0EA;
 }
 
 
