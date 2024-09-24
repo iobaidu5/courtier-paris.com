@@ -88,6 +88,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 header .top {
   padding: .6rem 0;
   box-shadow: 0px .4rem 1.8rem .1rem rgba(204, 204, 204, 0.25);
+  background-color: #fff !important;
 }
 
 .text-right {
@@ -148,6 +149,22 @@ header .menu img {
     background-color: #fff;
     z-index: 9999;
 
+    @media only screen and (max-width: 1600px) {
+      padding: 2.5rem 17rem;
+    }
+
+    @media only screen and (max-width: 1400px) {
+      padding: 2.5rem 14rem;
+    }
+
+    @media only screen and (max-width: 1200px) {
+      padding: 2.5rem 7rem;
+    }
+
+    @media only screen and (max-width: 768px) {
+      padding: 2.5rem 1rem;
+    }
+
   }
 }
 
@@ -194,6 +211,10 @@ header .menu img {
       padding-right: .5rem;
       height: 7.3rem;
       max-width: 100%;
+
+      @media only screen and (max-width: 1200px) {
+        height: auto;
+      }
       // @media only screen and (max-width: 768px) {
       //   height: 7rem;
       // }
@@ -363,6 +384,15 @@ header .menu img {
   }
 }
 
+.to-left{
+
+  @media only screen and (max-width: 990px) {
+    float: right;
+    width: 100%;
+    display: flex;
+  }
+}
+
 
 
 .slider {
@@ -431,6 +461,11 @@ header .menu img {
       font-family: 'Source Sans 3', sans-serif;
       font-weight: 300;
       text-shadow: 0 .2rem .1rem rgba(0, 0, 0, .11);
+
+      @media only screen and (max-width: 768px) {
+        text-align: center;
+        font-size: 3rem;
+      }
     }
 
     &-p{
@@ -450,6 +485,10 @@ header .menu img {
   height: 25vh;
   display: flex;
   justify-content: center;
+  
+  @media only screen and (max-width: 768px) {
+    height: auto;
+  }
 }
 
 .w-100 {
@@ -543,6 +582,10 @@ header .menu img {
   min-height: 21rem;
   background-color: #2b353e;
   border-radius: .5rem;
+
+  @media only screen and (max-width: 580px) {
+    margin-top: 2rem;
+  }
 }
 
 .wrapper-calcul .right::before {
@@ -584,6 +627,10 @@ header .menu img {
 
 section.one {
   padding: 18rem 0px;
+
+  @media only screen and (max-width: 768px) {
+    padding: 7rem 0 !important;
+  }
 }
 
 section h2 {
@@ -671,8 +718,10 @@ section h3 {
 }
 
 a {
+  font-family: 'Source Sans 3', sans-serif !important;
   color: #428bca !important;
   text-decoration: none;
+  font-size: 1.6rem !important;
 }
 
 section.one_home {
@@ -709,6 +758,12 @@ section h4 {
 
 section.bandeau {
   background-image: url('../img/paris.png');
+  background-size: cover;
+  background-position: center;
+}
+
+section.bandeau5 {
+  background-image: url('../img/bg1.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -858,12 +913,12 @@ address {
 }
 
 .pre-text h1 {
-  color: #000;
-  font-size: 4rem;
-  letter-spacing: .5px;
-  font-family: 'Source Sans 3', sans-serif;
-  font-weight: 300;
-  text-shadow: 0 .2rem .1rem rgba(0, 0, 0, .11);
+  color: #000 !important;
+  font-size: 4rem !important;
+  letter-spacing: .5px !important;
+  font-family: 'Source Sans 3', sans-serif !important;
+  font-weight: 300 !important;
+  text-shadow: 0 .2rem .1rem rgba(0, 0, 0, .11) !important;
 }
 
 section.three .bg2 h3 {
@@ -1068,6 +1123,7 @@ label {
 }
 
 
+
 #mentions-legales {
   padding: 0 10rem;
   margin-top: 20rem;
@@ -1236,6 +1292,24 @@ header .predevis input, header .predevis textarea {
 }
 
 
+.img-fluid {
+  height: 100%;
+  width: 100%;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button2 {
+  background-color: #fff;
+  color: #00b0ea !important;
+  border: .2rem solid #00b0ea !important;
+}
+
+
 .page404{
 
   &_content{
@@ -1294,6 +1368,15 @@ header .predevis input, header .predevis textarea {
 .br{
   border-radius: 3rem !important;
 }
+
+.pt-450{
+
+  @media only screen and (max-width: 768px) {
+    padding-top: 4rem !important;
+  }
+}
+
+
 
 // Imports
 @import "bootstrap";
